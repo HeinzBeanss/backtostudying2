@@ -1,0 +1,54 @@
+body {
+    background-color: #1b1b1b;
+    color: white;
+    display: flex;
+}
+
+.sidebar {
+    padding: 20px;
+
+}
+
+.rightside {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+   
+
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    /* padding: 200px; */
+    width: 400px;
+    height: auto;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    padding-top: 10px;
+}
+
+.card  {
+    padding: 10px;
+    background-color: #242424;
+
+}
+.content {
+    display: grid;
+    resize: both;
+    overflow: auto;
+    
+    grid-template-rows: repeat(2, 500px);
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+
+    /* grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); */
+}
